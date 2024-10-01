@@ -31,6 +31,7 @@ import 'package:rifan_application_1/BottomNavigationbar.dart';
 import 'package:rifan_application_1/Tabbar.dart';
 import 'package:rifan_application_1/Drwawer.dart';
 import 'package:rifan_application_1/silverAppBar.dart';
+import 'package:rifan_application_1/p.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -49,7 +50,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ImageHome(),
+      home: const P(),
     );
   }
 }

@@ -16,7 +16,7 @@ class _DropdownHomeState extends State<DropdownHome> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(' Dropdown'),
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.blueAccent,
       ),
       body: Material( // Gunakan Material di sini sebagai parent
         child: Container(
@@ -31,7 +31,7 @@ class _DropdownHomeState extends State<DropdownHome> {
                 value: selected,
                 icon: const Icon(Icons.arrow_downward),
                 iconSize: 20,
-                style: TextStyle(color: Colors.blue[600]),
+                style: TextStyle(color: Colors.blueAccent[600]),
                 underline: Container(
                   height: 2,
                   color: Colors.grey,
